@@ -1,0 +1,3 @@
+export PYTHONPATH=$PYTHONPATH:'/media/HDD/zhiran/avod-master-exp2'
+
+export PYTHONPATH=$PYTHONPATH:'/media/HDD/zhiran/avod-master-exp2/wavedata'
