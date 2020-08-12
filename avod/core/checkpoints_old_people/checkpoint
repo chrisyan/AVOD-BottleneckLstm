@@ -1,2 +1,2 @@
-﻿model_checkpoint_path: "/media/HDD/zhiran/avod-master-exp4/avod/core/checkpoints_old_people/pyramid_people_example-00120000"
-all_model_checkpoint_paths: "/media/HDD/zhiran/avod-master-exp4/avod/core/checkpoints_old_people/pyramid_people_example-00120000"
+﻿model_checkpoint_path: "/root/avod-master-exp4/avod/core/checkpoints_old_people/pyramid_people_example-00120000"
+all_model_checkpoint_paths: "/root/avod-master-exp4/avod/core/checkpoints_old_people/pyramid_people_example-00120000"
