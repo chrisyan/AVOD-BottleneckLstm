@@ -129,13 +129,13 @@ def train(model, train_config):
     #np.load('./pyramid_cars_with_aug_example-00120000.npy', encoding="bytes").item()
     previous_variables = [
         var_name for var_name, _
-        in tf.contrib.framework.list_variables('/media/HDD/zhiran/avod-master-exp3/avod/core/checkpoints_old_cars/pyramid_cars_with_aug_example-00120000')]
+        in tf.contrib.framework.list_variables('/root/avod-master-exp3/avod/core/checkpoints_old_cars/pyramid_cars_with_aug_example-00120000')]
 
     restore_map = {variable.op.name: variable for variable in tf.global_variables()
                    if variable.op.name in previous_variables}
 
     tf.contrib.framework.init_from_checkpoint(
-        '/media/HDD/zhiran/avod-master-exp3/avod/core/checkpoints_old_cars/pyramid_cars_with_aug_example-00120000', restore_map)
+        '/root/avod-master-exp3/avod/core/checkpoints_old_cars/pyramid_cars_with_aug_example-00120000', restore_map)
 
     sess.run(init)
     
